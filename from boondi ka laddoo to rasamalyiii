@@ -1,0 +1,75 @@
+index.html <!DOCTYPE html>
+<html>
+<head>
+    <title>For My Rasmalyii</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fecfef);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 90%;
+            max-width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            color: #ff4d88;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .heart {
+            font-size: 22px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>For My Rasmalyii 💗</h1>
+    
+    <p>
+        You are one of the most comfortable and positive people in my life.
+        I genuinely feel lucky to have you.
+    </p>
+
+    <p>
+        I hope I am someone you can always talk to freely.
+        No matter what happens, I will always support you and stand by you.
+    </p>
+
+    <p>
+        Stay happy, stay confident, and keep shining ✨
+    </p>
+
+    <div class="heart">🤍</div>
+</div>
+
+</body>
+</html>
